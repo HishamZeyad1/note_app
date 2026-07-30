@@ -129,30 +129,3 @@ Follow these setup steps to run the project locally on your machine:
    ```bash
    flutter run
    ```
-
----
-
-## 📱 Screenshots
-
-| Launch Screen | Home Dashboard | Rich Editor Workspace |
-|:---:|:---:|:---:|
-| <!-- Add launch screen screenshot here --> `![](images/your_launch_screenshot.png)` | <!-- Add home screen screenshot here --> `![](images/your_home_screenshot.png)` | <!-- Add editor screenshot here --> `![](images/your_editor_screenshot.png)` |
-
----
-
-## 🎬 App Demo
-
-> [!TIP]
-> Drag and drop or link your `.mp4` / `.gif` recording of the app here to showcase its interactive flow!
->
-> <!-- Drop video file path below -->
-> `![App Demo Clip](images/demo_screen_recording.gif)`
-
----
-
-## 🌐 Application Preview
-
-You can test-run and explore interactive flows directly. Below is the list of major routes mapped:
-* `/` -> Launch initialization screen.
-* `/home` -> Core dashboard page.
-* `/notes_edit` -> Dynamic parameter-driven editor.
