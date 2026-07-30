@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-import 'package:share/share.dart';
+// import 'package:share/share.dart';
 
 import '../models/note.dart';
 import '../models/notes_database.dart';
@@ -19,7 +19,7 @@ const c1 = 0xFFFDFFFC,
 class NotesEdit extends StatefulWidget {
   final args;
 
-  const NotesEdit(this.args);
+  const NotesEdit(this.args, {super.key});
 
   _NotesEdit createState() => _NotesEdit();
 }
@@ -45,7 +45,7 @@ class _NotesEdit extends State<NotesEdit> {
         handleNoteSort('descending');
         break;
       case 'Share':
-        handleNoteShare();
+        // handleNoteShare();
         break;
       case 'Delete':
         handleNoteDelete();
@@ -84,7 +84,7 @@ class _NotesEdit extends State<NotesEdit> {
   }
 
   void handleNoteShare() async {
-    await Share.share(noteContent, subject: noteTitle);
+    // await Share.share(noteContent, subject: noteTitle);
   }
 
   void handleNoteDelete() async {

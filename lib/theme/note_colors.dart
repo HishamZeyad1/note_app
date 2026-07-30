@@ -18,5 +18,4 @@ const NoteColors = {
   'deepOrange': {'l': 0xFFFFCCBC, 'b': 0xFFFF8A65},
   'brown': {'l': 0xFFD7CCCB, 'b': 0xFFA1887F},
   'blueGray': {'l': 0xFFCFD8DC, 'b': 0xFF90A4AE},
-
 };

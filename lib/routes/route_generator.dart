@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/screens/launch_screen.dart';
+// import 'package:notes_app/screens/launch_screen.dart';
 
 import '../screens/home.dart';
+import '../screens/launch_screen.dart';
 import '../screens/notes_edit.dart';
 
 class GenerateAllRoutes {
